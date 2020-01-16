@@ -1,0 +1,37 @@
+.smoke {
+    text-transform: none;
+		color:#eee;
+		font-weight: bold;
+    font-family: ubuntu;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 10px;
+    border:1px solid #333;
+    font-size:24px;
+    -moz-box-shadow: 0 0px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0px 6px rgba(0,0,0,0.5);
+
+}
+
+.dialog-buttons {
+	margin: 5px 0 5px 0;
+    border-radius: 5px;
+}
+
+.dialog-buttons button {
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #91bd09;
+    color: #333;
+    font-size:11px;
+    padding:6px 9px;
+    border:1px solid #333;
+}
+.dialog-buttons button:hover {
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #d34328;
+    color: #ffffff;
+    font-size:11px;
+    padding:6px 9px;
+    border:1px solid #333;
+}

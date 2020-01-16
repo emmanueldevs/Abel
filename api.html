@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Able - Free Url Shortner -  API Usage</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="description" content="Hello! I'm Abel, I help Shorten long URL's.">
+		<meta name="author" content="Emmanuel Adeboje, Emmanueldevs, i_am_hemmanuel">
+		<meta name="keywords" content="url shortner, abel, shorten, emmanueldevs, Emmanuel Adeboje, Nigeria, Html, css, mysql, php, javascript">
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="./" class="logo"><strong>Abel</strong> <span>by Emmanueldevs</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="./">Home</a></li>
+							<li><a href="api.html">API Usage</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="contact.html" class="button primary fit">Contact Us</a></li>
+						</ul>
+					</nav>
+				<!-- Banner -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>API Usage</h1>
+							</header>
+							<div class="content">
+								<p>The Developer API feature.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Using the Developer API</h2>
+									</header>
+									<p>API requests can also be processed by the system, Our developer API is quite simple to use.</p>
+									<p>
+										To send a request, the user must use the following format where the variables api and url are required. In the example below, the URL of the demo is used but you should use your own domain name. To request a custom alias, simply add &custom= at the end.
+									</p>
+									<pre>
+										<code>GET http://localhost/url_shortener/get.php?url=THELONGURLTOBESHORTENED
+</code></pre>
+                                    <h3>Server response</h3>
+                                    <p>
+										As before, the response will encoded in JSON format (default). This is done to facilitate cross-language usage. The first element of the response will always carry the timestamp (timestamp: 23101982). If there is an error, an error message would be displayed, which contains the source of error. otherwise the second element will be named 'url' which contains the short URL. (See below for an example) 
+									</p>
+									<pre>
+										<code>{
+   "timestamp": 23101982,
+   "url":"http://localhost/url_shortener/DkZOb"
+}
+</code></pre>
+                                </div>
+							</section>
+					</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons icons-center">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li class="text-white">&copy; 2019 Propell Media</li><li class="f-f-r text-white"><i class="text-info fa fa-code"></i> with <i class="text-danger fa fa-heart"></i> &amp; <i class="text-warning fa fa-coffee"></i>
+									<span>in Nigeria</span></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
