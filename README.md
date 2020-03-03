@@ -1,9 +1,6 @@
 # Able - Free Url Shortner
 
 Abel is a script that demonstrate the url shortener and redirection scope, it is not a full fledged url shortner package, abel is a pet project solely for the purpose of explaining the said concept (at bootcamps or in codelabs).
-```
-PS: This project is not for experts (Senior engineers!) 😃
-```
 
 ## Getting Started
 
